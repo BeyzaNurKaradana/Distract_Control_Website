@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+
+    <label>Çalışmaya başladığınızdan beri telefonunuz <span id="countLabel" >0</span> kere dikkatinizi dağıttı</label><br />
+    <!-- <button id="decreaseBtn">decrease</button> -->
+    <button id="resetBtn">reset</button>
+    <button id="increaseBtn">increase</button>
+
+    <script>
+      let count = 0;
+
+
+      document.getElementById("resetBtn").onclick = function () {
+        count = 0;
+        document.getElementById("countLabel").innerHTML = count;
+      };
+
+      document.getElementById("increaseBtn").onclick = function () {
+        count += 1;
+        document.getElementById("countLabel").innerHTML = count;
+      };
+    </script>
+  </body>
+</html>
