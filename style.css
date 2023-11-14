@@ -8,3 +8,12 @@
   text-align: center;
   font-size: 50px;
 }
+
+.header-image{
+  background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 30rem 0;
+  background-position: center;
+  background-size: cover;
+}
