@@ -17,20 +17,29 @@ const audio = new Audio(audioFileUrl);
 const button = document.querySelector("#playButton");
 
 
-// Ses dosyasının oynatma durumunu takip eden bir değişken oluşturun
+
 let isPlaying = false;
 
 button.addEventListener("click", () => {
-  // Düğmeye ilk tıkladığınızda, ses dosyasını oynatın ve değişkeni true olarak ayarlayın
+
   if (!isPlaying) {
     audio.play();
     isPlaying = true;
   } else {
-    // Düğmeye tekrar tıkladığınızda, değişkeni false olarak ayarlayın ve ses dosyasını durdurun
+
     audio.pause();
     isPlaying = false;
   }
-});
+});  
+
+
+
+
+ 
+
+
+
+
 
 
 const audioFileUrl2 = "audio/fire.mp3";
@@ -100,3 +109,4 @@ button4.addEventListener("click", () => {
     isPlaying4 = false;
   }
 });
+
