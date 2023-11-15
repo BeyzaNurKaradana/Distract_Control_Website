@@ -10,52 +10,55 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container ">
-          <a class="navbar-brand" href="#">SOFT MOTIVATION</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse">
-              <ul class="navbar-nav ms-auto mb-2  ">
-                  <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Güncelleme</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-  <header class="header-image">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
+      <div class="container">
+        <a class="navbar-brand" href="#">SOFT MOTIVATION</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item"><a class="nav-link" href="#">Anasayfa</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Güncelleme</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
+    </nav>
 
-
-
-
-
-
-
-
-    <label id="warning-text"
-      >Çalışmaya başladığınızdan beri telefonunuz
-      <span id="countLabel">0</span> kere dikkatinizi dağıttı</label
-    ><br />
-    <div class="buttons">
-      <button id="resetBtn">sıfırla</button>
-      <button id="increaseBtn">arttır</button>
-    </div>
+    <header class="header-image">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <label id="warning-text" class="text-white"
+              >Çalışmaya başladığınızdan beri telefonunuz
+              <span id="countLabel">0</span> kere dikkatinizi dağıttı</label
+            ><br />
+            <div class="buttons">
+              <button id="resetBtn">sıfırla</button>
+              <button id="increaseBtn">arttır</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
     
+
     <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
