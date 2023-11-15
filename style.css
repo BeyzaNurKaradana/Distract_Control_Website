@@ -10,10 +10,11 @@
 }
 
 .header-image{
-  background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");
+background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");  
+/*   background-image: url("https://img.piri.net/resim/imagecrop/2016/06/28/05/35/resized_57c24-b9464b99yildizligece.png"); */
   background-size: cover;
   position: relative;
-  padding: 30rem 0;
+  padding: 15rem 0;
   background-position: center;
   background-size: cover;
 }
@@ -26,7 +27,7 @@
   width: 100%;
   height: 100%;
   background-color: #333;
-  opacity: 0.2;
+  opacity: 0.5;
   position: absolute;
   z-index: 0;
 }
@@ -37,6 +38,8 @@
   color: white;
 }
 
-#resetBtn, #increaseBtn{
-  
+.bi {
+  font-size: 5rem;
+
 }
+
