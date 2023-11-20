@@ -7,7 +7,7 @@
 .buttons {
   text-align: center;
   font-size: 50px;
-}
+} 
 
 .header-image{
 background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");  
@@ -51,3 +51,10 @@ background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");
   margin-top: 7rem;
   min-height: 100vh;
 }
+
+#playButton, #playButton2, #playButton3, #playButton4{
+  width: 5rem;
+  height: 5rem;
+  
+}
+
