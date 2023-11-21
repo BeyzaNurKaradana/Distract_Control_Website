@@ -7,14 +7,12 @@
 .buttons {
   text-align: center;
   font-size: 50px;
-} 
+}
 
-.header-image{
-background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");  
-/*   background-image: url("https://img.piri.net/resim/imagecrop/2016/06/28/05/35/resized_57c24-b9464b99yildizligece.png"); */
+.header-image {
+  background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");
   background-size: cover;
   position: relative;
-  /* padding: 15rem 0; */
   background-position: center;
   background-size: cover;
 }
@@ -40,21 +38,21 @@ background-image: url("https://asoftmurmur.com/assets/bg-high-res.jpg");
 
 .bi {
   font-size: 5rem;
-
 }
 
-.bg{
-  background-color: rgba(0,0,0,.3);
+.bg {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.section{
+.section {
   margin-top: 7rem;
   min-height: 100vh;
 }
 
-#playButton, #playButton2, #playButton3, #playButton4{
+#playButton,
+#playButton2,
+#playButton3,
+#playButton4 {
   width: 5rem;
   height: 5rem;
-  
 }
-
